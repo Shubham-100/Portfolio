@@ -18,7 +18,7 @@ const obj = {
             site:"https://youtubemate1.netlify.app/",
             github:"https://github.com/Shubham-100/YouTubeMate"
         },
-        img:require('../assets/project.PNG')
+        img:require('../assets/tubemate.PNG')
     },
         two: {
             title:"Movies Recommendation App",
