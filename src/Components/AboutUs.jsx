@@ -18,7 +18,7 @@ const AboutUs = () => {
                 <form action='https://drive.google.com/file/d/15TLi3-uss6GC1rAUBF5apNz0kvNS3jZ4/view?usp=drive_link' target='_blank'>
                     <p className='text-[1.2rem]' >Link to <button className='text-[#bc1a45] hover:text-[#bc4d1a]'  style={{textDecoration: "underline", paddingTop: "2rem"}}>Resume</button></p>
                 </form>
-                <div className='flex flex-row flex-wrap mt-2 '>
+                <div className='flex flex-row flex-wrap mt-4 h-[5rem]'>
                     <a href="https://github.com/Shubham-100" target="_blank" className='hover:border-black hover:border-2'><img src={require('../assets/github.png')} className='w-10 h-10 rounded-full' /></a>
                     <a href="https://leetcode.com/aryan10jangid/" target="_blank" className='hover:border-black hover:border-2'><img src={require('../assets/lc.png')} className='w-10 h-10 rounded-full' /></a>
                     <a href="https://www.linkedin.com/in/shubham-686615155/" target="_blank" className='hover:border-black hover:border-2'><img src={require('../assets/linkedin.png')} className='w-10 h-10 rounded-full' /></a>
