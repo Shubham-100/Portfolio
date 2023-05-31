@@ -10,7 +10,7 @@ import React, {useRef} from 'react'
 
 
 function App() {
-  const HOME = useRef()
+
   const PROJECTS = useRef()
   const ACHIEVEMENTS = useRef()
   const ABOUT_ME = useRef()
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <Navbar HOME={HOME} PROJECTS={PROJECTS} ACHIEVEMENTS={ACHIEVEMENTS} ABOUT_ME={ABOUT_ME} scrollToSection={scrollToSection} SKILLS={SKILLS}/>
+      <Navbar PROJECTS={PROJECTS} ACHIEVEMENTS={ACHIEVEMENTS} ABOUT_ME={ABOUT_ME} scrollToSection={scrollToSection} SKILLS={SKILLS}/>
       {/* <Intro id="" HOME={HOME}/> */}
       <AboutUs id="aboutus" ABOUT_ME={ABOUT_ME}/>
       <Skills id="skills" SKILLS={SKILLS}/>
