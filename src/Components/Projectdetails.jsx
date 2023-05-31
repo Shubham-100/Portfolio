@@ -9,9 +9,9 @@ const Projectdetails = ({title,d1,d2,d3,img,site,github}) => {
                 {title}
             </div>
             <div className='w-[40rem] p-2 text-[1.2rem] text-black'>
-                <p className='my-4'>{d1}</p>
-                <p className='my-4'>{d2}</p>
-                <p className='my-4'>{d3}</p>
+                <p className='text-[white] my-4'>{d1}</p>
+                <p className='text-[white] my-4'>{d2}</p>
+                <p className='text-[white] my-4'>{d3}</p>
                 <Techs img={img}/>
                 <Button site={site} github={github}/>
             </div>

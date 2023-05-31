@@ -21,9 +21,9 @@ body, html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgba(29,17,138,0.6);
+    background-color: rgba(57, 57, 63, 0.6);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color: blue;
+    background-color: rgba(20, 20, 21, 0.6);
 }
