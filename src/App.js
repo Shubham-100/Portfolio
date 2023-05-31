@@ -26,7 +26,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar HOME={HOME} PROJECTS={PROJECTS} ACHIEVEMENTS={ACHIEVEMENTS} ABOUT_ME={ABOUT_ME} scrollToSection={scrollToSection} SKILLS={SKILLS}/>
-      <Intro id="" HOME={HOME}/>
+      {/* <Intro id="" HOME={HOME}/> */}
       <AboutUs id="aboutus" ABOUT_ME={ABOUT_ME}/>
       <Skills id="skills" SKILLS={SKILLS}/>
       <Project id="projects" PROJECTS={PROJECTS}/>
