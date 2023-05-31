@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Intro = () => {
+const Intro = ({HOME} ) => {
     return (
-        <div id='intro' className='h-[40rem] '>
+        <div ref={HOME} id='intro' className='h-[40rem] '>
             <div className='w-[16rem] h-[10rem] p-2'>
                 <img src={require('../assets/Laptop.jpg')} className='mt-20'/>
             </div>
