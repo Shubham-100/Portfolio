@@ -4,8 +4,8 @@ const AboutUs = ({ABOUT_ME}) => {
     return (
         <div ref={ABOUT_ME} className='flex flex-col justify-around flex-nowrap md:flex-row' id='#about-me'>
             <div className='flex flex-col p-4 mt-[5rem]'>
-                <h2 className='text-[#fffff] text-[1.5rem] font-bold'>ABOUT ME</h2>
-                <h3 className='text-[#bc1a45] text-[2.5rem] font-semibold'>Who is Shubham?</h3>
+                <h2 className='text-[#bc1a45] text-[1.5rem] font-bold'>ABOUT ME</h2>
+                <h3 className='text-[#fffff] text-[2.5rem] font-semibold'>Who is Shubham?</h3>
                 <img src={require('../assets/personjpg.jpg')} className='w-80 h-80 rounded-full mt-6'/>
             </div>
             <div className='flex flex-col w-[50rem] p-4 mt-[9rem]'>
