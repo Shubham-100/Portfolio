@@ -4,18 +4,20 @@
 
 @layer components{
     a{
-        @apply hover:text-[#d90429] m-3 p-2
+        @apply m-3 p-2
+    }
+    a:hover {
+      cursor: pointer;
     }
     img:hover {
       border-color: blue;
     }
     #intro{
-      @apply bg-secondary;
-      /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); */
-  }
+      background-image: linear-gradient(to left top,#009f9d, #1c1259);
+    }
     #about-me{
-        
-        /* clip-path: polygon(0 70%, 100% 20%, 100% 100%, 0 100%); */
+        clip-path: polygon(0 70%, 100% 20%, 100% 100%, 0 100%);
+       
     }
     p, h{
         @apply text-black

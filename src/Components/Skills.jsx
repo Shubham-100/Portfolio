@@ -3,10 +3,10 @@ import ToolsAndSkills from './ToolsAndSkills';
 
 const Skills = ({SKILLS} ) => {
     return (
-        <div ref={SKILLS} className='bg-fourth p-40' style={{padding: "1rem"}}>
-            <div className='text-[#f0535d] font-semibols text-[1.4em] p-1'>Skills and Tools</div>
-            <div className='text-[#1c2273] font-bold text-[2.1rem] p-1'>My Toolbox & Things I Can Do</div>
-            <div className='flex flex-row flex-wrap '>
+        <div ref={SKILLS} className='p-20' style={{padding: "1rem", backgroundImage: "linear-gradient(to left top,#009f9d, #1c1259)"}}>
+            <div className='text-[#FFFFFF] font-semibols text-[1.4em] p-1'>Skills and Tools</div>
+            <div className='text-[orange] font-bold text-[2.1rem] p-1'>My Toolbox & Things I Can Do</div>
+            <div className='text-[orange] flex flex-row flex-wrap '>
                 <ToolsAndSkills img={require('../assets/c-.png')} name={"C++"}/>
                 <ToolsAndSkills img={require('../assets/branch.png')} name={"GIT"}/>
                 <ToolsAndSkills img={require('../assets/css.png')} name={"CSS"}/>
