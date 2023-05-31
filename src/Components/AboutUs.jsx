@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = ({ABOUT_ME}) => {
     return (
-        <div ref={ABOUT_ME} className='flex flex-row justify-around flex-nowrap' id='#about-me'>
+        <div ref={ABOUT_ME} className='flex flex-col justify-around flex-nowrap md:flex-row' id='#about-me'>
             <div className='flex flex-col p-4 mt-[5rem]'>
                 <h2 className='text-[#fffff] text-[1.5rem] font-bold'>ABOUT ME</h2>
                 <h3 className='text-[#bc1a45] text-[2.5rem] font-semibold'>Who is Shubham?</h3>
