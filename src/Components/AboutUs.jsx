@@ -9,7 +9,7 @@ const AboutUs = ({ABOUT_ME}) => {
                 <img src={require('../assets/personjpg.jpg')} className='w-80 h-80 rounded-full mt-6'/>
             </div>
             <div className='flex flex-col w-[50rem] p-4 mt-[9rem]'>
-                <h3 className='text-[#fffff] text-[1.55rem] p-0 font-semibold'>
+                <h3 className='text-[#bc1a45] text-[1.55rem] p-0 font-semibold'>
                 A curiosity-driven developer with design chops.
                 </h3>
                 <div>

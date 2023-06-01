@@ -7,7 +7,7 @@ const Projects = ({title,d1,d2,d3,tech,site,github,img}) => {
             <div>
             <Projectdetails title={title} d1={d1} d2={d2} d3={d3} img={tech} site={site} github={github}/>
             </div>
-            <img src={img} className='w-[30rem] h-[20rem] rounded-3xl' alt='cover'/>
+            <img src={img} className='w-[18.5em] h-[12rem] mt-[2rem] md:mt-0 md:w-[30rem] md:h-[20rem] rounded-3xl' alt='cover'/>
         </div>
     );
 }
