@@ -6,8 +6,9 @@ const AboutUs = ({ABOUT_ME}) => {
             <div className='flex flex-col p-4 mt-[5rem]'>
                 <h2 className='text-[#bc1a45] text-[1.5rem] font-bold'>ABOUT ME</h2>
                 <h3 className='text-[#fffff] text-[2.5rem] font-semibold'>Who is Shubham?</h3>
-                <img src={require('../assets/dev.jpg')} className='w-80 h-80 rounded-full mt-6'/>
+                <img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" className='w-120 h-120  mt-6'/>
             </div>
+            {/* src={require('../assets/dev.jpg')}  */}
             <div className='flex flex-col w-[50rem] p-4 mt-[9rem]'>
                 <h3 className='text-[#bc1a45] text-[1.55rem] p-0 font-semibold'>
                 A curiosity-driven developer with design chops.
