@@ -9,7 +9,7 @@ const AboutUs = ({ABOUT_ME}) => {
                 <img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" className='w-120 h-120  mt-6'/>
             </div>
             {/* src={require('../assets/dev.jpg')}  */}
-            <div className='flex flex-col w-[50rem] p-4 mt-[9rem]'>
+            <div className='flex flex-col mt-3 w-100 p-4 mt-[9rem] md: w-full'>
                 <h3 className='text-[#bc1a45] text-[1.55rem] p-0 font-semibold'>
                 A curiosity-driven developer with design chops.
                 </h3>
