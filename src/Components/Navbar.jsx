@@ -20,11 +20,6 @@ const Navbar = ({HOME,PROJECTS,ACHIEVEMENTS,ABOUT_ME,scrollToSection,SKILLS}) =>
   <header>
      <nav
         className="
-        bg-gradient-to-r
-        from-pink-300
-        via-purple-300
-        to-indigo-400
-        fixed w-full
           flex flex-wrap
           items-center
           justify-between
