@@ -20,6 +20,11 @@ const Navbar = ({HOME,PROJECTS,ACHIEVEMENTS,ABOUT_ME,scrollToSection,SKILLS}) =>
   <header>
      <nav
         className="
+        bg-gradient-to-r
+        from-pink-300
+        via-purple-300
+        to-indigo-400
+        fixed w-full
           flex flex-wrap
           items-center
           justify-between
@@ -60,7 +65,7 @@ const Navbar = ({HOME,PROJECTS,ACHIEVEMENTS,ABOUT_ME,scrollToSection,SKILLS}) =>
               md:pt-0"
           >
             <li>
-              <a className="md:p-4 py-2 block hover:[#bc1a45] text-black" href={null} onClick={() => scrollToSection(ABOUT_ME)}
+              <a className="md:p-4 py-2 block hover:text-[#bc1a45] text-black" href={null} onClick={() => scrollToSection(ABOUT_ME)}
                 >Home</a
               >
             </li>
