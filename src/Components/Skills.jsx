@@ -3,7 +3,7 @@ import ToolsAndSkills from './ToolsAndSkills';
 
 const Skills = ({SKILLS} ) => {
     return (
-        <div ref={SKILLS} className='ml-0 p-20'>
+        <div ref={SKILLS} className='mt-5 ml-0 p-5'>
             <div className='text-[orange] font-semibold text-[1.4em] p-1'>Skills and Tools</div>
             <div className='text-[white] font-bold text-[2.1rem] p-1'>My Toolbox & Things I Can Do</div>
             <div className='text-[orange] flex flex-row flex-wrap justify-around md:justify-normal '>
