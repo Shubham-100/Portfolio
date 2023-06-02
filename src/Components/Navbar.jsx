@@ -29,6 +29,7 @@ const Navbar = ({HOME,PROJECTS,ACHIEVEMENTS,ABOUT_ME,scrollToSection,SKILLS}) =>
           px-4
           text-lg text-gray-700
           bg-white
+          md: flex-row-reverse	
         "
       >
              
