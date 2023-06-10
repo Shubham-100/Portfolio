@@ -16,7 +16,7 @@ const AboutUs = ({ABOUT_ME}) => {
                 <p className='text-white text-[1.3rem] p-6'>Dynamic and skilled software developer with expertise in C++, Python, Java, React, Bootstrap, and the Qt framework. Passionate about open source contributions and actively engaged in the open source community. Regularly practices problem-solving skills through platforms like LeetCode. Looking for a full time Software Developer role, feel free to contact me.</p>
                 </div>
                 <form action='https://drive.google.com/file/d/15TLi3-uss6GC1rAUBF5apNz0kvNS3jZ4/view?usp=drive_link' target='_blank'>
-                    <p className='text-white text-[1.2rem]' >Link to <button className='text-[#bc1a45] hover:text-[#bc4d1a]'  style={{textDecoration: "underline", paddingTop: "2rem"}}>Resume</button></p>
+                    <p className='text-white text-[1.2rem] ml-6' >Link to <button className='text-[#bc1a45] hover:text-[#bc4d1a]'  style={{textDecoration: "underline", paddingTop: "2rem"}}>Resume</button></p>
                 </form>
                 <div className='flex flex-row flex-wrap mt-2 '>
                         <a href="https://github.com/Shubham-100" target="_blank" className='hover:border-black hover:border-2'><img src={require('../assets/github.png')} className='w-10 h-10 rounded-full' /></a>
