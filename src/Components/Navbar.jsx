@@ -32,7 +32,7 @@ const Navbar = ({HOME,PROJECTS,ACHIEVEMENTS,ABOUT_ME,scrollToSection,SKILLS}) =>
           md: flex-row-reverse	
         "
       >
-             
+        
          <svg
             xmlns="http://www.w3.org/2000/svg"
             id="menu-button"

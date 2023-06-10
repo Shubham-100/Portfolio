@@ -2,14 +2,14 @@ import React from 'react';
 
 const AboutUs = ({ABOUT_ME}) => {
     return (
-        <div ref={ABOUT_ME} className='flex flex-col justify-around flex-nowrap md:flex-row' id='#about-me'>
+        <div ref={ABOUT_ME} className='flex flex-col justify-around flex-nowrap md:flex-row'  id='#about-me'>
             <div className='flex flex-col p-4 mt-[5rem]'>
                 <h2 className='text-[#bc1a45] text-[1.5rem] font-bold'>ABOUT ME</h2>
                 <h3 className='text-[#fffff] text-[2.5rem] font-semibold'>Who is Shubham?</h3>
                 <img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" className='w-120 h-120  mt-6'/>
             </div>
-            <div className='flex flex-col mt-3 w-100 p-4 mt-[.5rem] md: w-full'>
-                <h3 className='text-[#bc1a45] text-[1.55rem] p-0  font-semibold'>
+            <div className='flex flex-col ml-6 mt-20 w-100 p-4 md: w-full'>
+                <h3 className='text-[#bc1a45] text-[1.55rem] ml-6 font-semibold'>
                 A curiosity-driven developer with design chops.
                 </h3>
                 <div>
